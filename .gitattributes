@@ -2,10 +2,12 @@
 /.cvsignore -text
 GNU/Makefile -text
 LINUX/Makefile -text
+WINBUILD-nibconv/.cvsignore -text
 WINBUILD-nibconv/Makefile -text
 WINBUILD-nibconv/nibconv.dsp -text
 WINBUILD-nibconv/nibconv.rc -text
 WINBUILD-nibconv/sources -text
+WINBUILD-nibread/.cvsignore -text
 WINBUILD-nibread/Makefile -text
 WINBUILD-nibread/Makefile.inc -text
 WINBUILD-nibread/nibread.dsp -text
@@ -13,9 +15,8 @@ WINBUILD-nibread/nibread.rc -text
 WINBUILD-nibread/sources -text
 WINBUILD-nibscan/.cvsignore -text
 WINBUILD-nibscan/Makefile -text
-WINBUILD-nibscan/nibpscan.dsp -text
+WINBUILD-nibscan/nibscan.dsp -text
 WINBUILD-nibscan/nibscan.rc -text
-WINBUILD-nibscan/pscan.rc -text
 WINBUILD-nibscan/sources -text
 WINBUILD-nibwrite/.cvsignore -text
 WINBUILD-nibwrite/Makefile -text
