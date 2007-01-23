@@ -15,6 +15,7 @@ WINBUILD-nibwrite/sources -text
 /cbm.c -text
 /dirs -text
 /drive.c -text
+/fileio.c -text
 /gcr.c -text
 /gcr.h -text
 include/DOS/cbm.h -text
