@@ -13,7 +13,6 @@ WINBUILD-nibread/nibread.rc -text
 WINBUILD-nibread/sources -text
 WINBUILD-nibscan/.cvsignore -text
 WINBUILD-nibscan/Makefile -text
-WINBUILD-nibscan/mnibpscan.dsp -text
 WINBUILD-nibscan/nibpscan.dsp -text
 WINBUILD-nibscan/nibscan.rc -text
 WINBUILD-nibscan/pscan.rc -text
@@ -22,7 +21,6 @@ WINBUILD-nibwrite/.cvsignore -text
 WINBUILD-nibwrite/Makefile -text
 WINBUILD-nibwrite/Makefile.inc -text
 WINBUILD-nibwrite/nibwrite.rc -text
-WINBUILD-nibwrite/pwrite.rc -text
 WINBUILD-nibwrite/sources -text
 /cbm.c -text
 /dirs -text
