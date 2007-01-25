@@ -47,6 +47,5 @@ include/WINDOWS/opencbm.h -text
 /prot.c -text
 /prot.h -text
 /read.c -text
-/readme.txt -text
 /version.h -text
 /write.c -text
