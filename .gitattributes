@@ -40,9 +40,9 @@ include/WINDOWS/opencbm.h -text
 /nibconv.c -text
 /nibread.c -text
 /nibscan.c -text
+/nibtls_rt.c -text
 /nibtools.h -text
 /nibtools_15x1.asm -text
-/nibtools_rt.c -text
 /nibwrite.c -text
 /prot.c -text
 /prot.h -text
