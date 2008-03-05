@@ -39,6 +39,7 @@ include/WINDOWS/opencbm.h -text
 /kernel.c -text
 /nibconv.c -text
 /nibread.c -text
+/nibrepair.c -text
 /nibscan.c -text
 /nibtls_rt.c -text
 /nibtools.h -text
