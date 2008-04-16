@@ -39,6 +39,8 @@ include/LINUX/mnibarch.h -text
 include/WINDOWS/mnibarch.h -text
 include/WINDOWS/opencbm.h -text
 /kernel.c -text
+/md5.c -text
+/md5.h -text
 /nibconv.c -text
 /nibread.c -text
 /nibrepair.c -text
