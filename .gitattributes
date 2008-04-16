@@ -24,6 +24,8 @@ WINBUILD-nibwrite/Makefile.inc -text
 WINBUILD-nibwrite/nibwrite.rc -text
 WINBUILD-nibwrite/sources -text
 /cbm.c -text
+/crc.c -text
+/crc.h -text
 /dirs -text
 /drive.c -text
 /fileio.c -text
