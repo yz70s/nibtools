@@ -1,4 +1,6 @@
 * text=auto !eol
 WINBUILD-nibconv/nibconv.dsp eol=crlf
 WINBUILD-nibread/nibread.dsp eol=crlf
+WINBUILD-nibrepair/nibrepair.dsp eol=crlf
 WINBUILD-nibscan/nibscan.dsp eol=crlf
+WINBUILD-nibwrite/nibwrite.dsp eol=crlf
