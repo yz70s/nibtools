@@ -1,7 +1,15 @@
 * text=auto !eol
+WIN-Resource/nibconv.rc -text
+WIN-Resource/nibread.rc -text
+WIN-Resource/nibrepair.rc -text
+WIN-Resource/nibscan.rc -text
+WIN-Resource/nibwrite.rc -text
 WINBUILD-nibconv/nibconv.dsp eol=crlf
 WINBUILD-nibread/nibread.dsp eol=crlf
 WINBUILD-nibrepair/nibrepair.dsp eol=crlf
 WINBUILD-nibscan/nibscan.dsp eol=crlf
 WINBUILD-nibwrite/nibwrite.dsp eol=crlf
+WSDK/Makefile -text
+WSDK/Win32.Mak -text
+WSDK/bin2array.c -text
 /readme.txt -text
