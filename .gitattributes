@@ -11,5 +11,6 @@ WSDK/bin2array.c -text
 /lz.c -text
 /lz.h -text
 /nibtools_1571_srq.asm -text
+/nibtools_1571_srq_test.asm -text
 /nibtools_15x1_ihs.asm -text
 /readme.txt -text
