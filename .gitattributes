@@ -10,6 +10,7 @@ WSDK/bin2array.c -text
 /ihs.h -text
 /lz.c -text
 /lz.h -text
+/nibsrqtest.c -text
 /nibtools_1571_srq.asm -text
 /nibtools_1571_srq_test.asm -text
 /nibtools_15x1_ihs.asm -text
