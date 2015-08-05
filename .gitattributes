@@ -8,6 +8,7 @@ WSDK/Makefile -text
 WSDK/bin2array.c -text
 /ihs.c -text
 /ihs.h -text
+include/WINDOWS/version.h -text
 /lz.c -text
 /lz.h -text
 /nibsrqtest.c -text
