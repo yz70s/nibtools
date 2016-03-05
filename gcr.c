@@ -223,7 +223,7 @@ convert_4bytes_from_GCR(BYTE * gcr, BYTE * plain)
 }
 
 int
-extract_id(BYTE * gcr_track, BYTE * id)
+extract_id(BYTE * gcr_track, BYTE * id, int size)
 {
 	BYTE header[10];
 	BYTE buffer[11];
@@ -233,14 +233,23 @@ extract_id(BYTE * gcr_track, BYTE * id)
 	track = 18;
 	sector = 0;
 	gcr_ptr = gcr_track;
-	gcr_end = gcr_track + NIB_TRACK_LENGTH;
+	gcr_end = gcr_track + size;
 
 	do
 	{
 		if (!find_sync(&gcr_ptr, gcr_end))
 			return 0;
 
-            memcpy( buffer, gcr_ptr, 11 );
+		    if (gcr_ptr + 11 < gcr_end)
+			{
+               memcpy( buffer, gcr_ptr, 11 );
+			}
+			else
+			{
+				int len1 = gcr_end-gcr_ptr;
+				memcpy( buffer, gcr_ptr, len1 );
+				memcpy( buffer+len1, gcr_track, 11-len1);
+			}
 	        while (buffer[0] & 128)
 	        {
 		        int i;
@@ -249,6 +258,8 @@ extract_id(BYTE * gcr_track, BYTE * id)
 	        }
 
 		convert_4bytes_from_GCR(buffer, header);
+		if (header[0] == 0x08 && header[2] == 0)
+		   id[2] = header[3];
 		convert_4bytes_from_GCR(buffer + 5, header + 4);
 	} while (header[0] != 0x08 || header[2] != sector || header[3] != track);
 
