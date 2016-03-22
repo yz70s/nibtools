@@ -6,6 +6,7 @@ WINBUILD-nibscan/nibscan.dsp eol=crlf
 WINBUILD-nibwrite/nibwrite.dsp eol=crlf
 WSDK/Makefile -text
 WSDK/bin2array.c -text
+/bitshifter.c -text
 /ihs.c -text
 /ihs.h -text
 include/WINDOWS/version.h -text
